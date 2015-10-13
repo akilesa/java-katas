@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jee-kata:war">
+    <output-path>$PROJECT_DIR$/jee-kata/target</output-path>
+    <root id="archive" name="jee-kata-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jee-kata:war exploded" />
+    </root>
+  </artifact>
+</component>

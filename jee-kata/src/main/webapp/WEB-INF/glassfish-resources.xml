@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+
+<resources>
+    <jdbc-connection-pool
+            name="java:app/jdbc/test_pool"
+            res-type="javax.sql.DataSource"
+            datasource-classname="org.h2.jdbcx.JdbcDataSource"
+            pool-resize-quantity="1"
+            max-pool-size="5"
+            steady-pool-size="0"
+            statement-timeout-in-seconds="30" >
+        <property name="user" value="sa"/>
+        <property name="password" value=""/>
+        <property name="url" value="jdbc:h2:mem:test_mem"/>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="java:app/jdbc/test_pool" jndi-name="java:app/jdbc/test"></jdbc-resource>
+</resources>

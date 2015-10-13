@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-ws-kata:war">
+    <output-path>$PROJECT_DIR$/spring-ws-kata/target</output-path>
+    <root id="archive" name="spring-ws-kata-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-ws-kata:war exploded" />
+    </root>
+  </artifact>
+</component>

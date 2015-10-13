@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jee-kata/jee-kata.iml" filepath="$PROJECT_DIR$/jee-kata/jee-kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-hibernate-kata/jpa-hibernate-kata.iml" filepath="$PROJECT_DIR$/jpa-hibernate-kata/jpa-hibernate-kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kata/spring-boot-kata.iml" filepath="$PROJECT_DIR$/spring-boot-kata/spring-boot-kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ws-kata/spring-ws-kata.iml" filepath="$PROJECT_DIR$/spring-ws-kata/spring-ws-kata.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta content="text/html;charset=UTF-8"/>
+    <title>Spring Boot Kata</title>
+    <link th:href="@{/webjars/bootstrap/3.3.4/css/bootstrap.min.css}" rel="stylesheet" media="screen"/>
+    <script th:href="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+    <link href="../static/css/main.css" th:href="@{css/main.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<div class="container">
+    <h1>Orders</h1>
+    <table>
+        <thead>
+            <tr><th>Code</th></tr>
+        </thead>
+        <tbody>
+            <tr th:each="order : ${orders}">
+                <td th:text="${order.code}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
